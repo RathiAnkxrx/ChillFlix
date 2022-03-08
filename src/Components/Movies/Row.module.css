@@ -1,0 +1,48 @@
+.row {
+  margin-left: 2.5vw;
+}
+
+.row__posters {
+  display: flex;
+  gap: 2rem;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding: 2rem 0;
+}
+
+.row__poster {
+  object-fit: contain;
+  width: 100%;
+  max-height: 25rem;
+  transition: transform 450ms;
+}
+
+.row__posters::-webkit-scrollbar {
+  display: none;
+}
+
+.row__poster:hover {
+  cursor: pointer;
+  transform: scale(1.09);
+}
+
+.row__landscape {
+  max-height: 15rem;
+  object-fit: contain;
+  transition: transform 450ms;
+}
+
+.row__landscape:hover {
+  cursor: pointer;
+  transform: scale(1.08);
+}
+
+h2 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+.trailer {
+  max-width: 800;
+  margin: 2rem auto;
+}

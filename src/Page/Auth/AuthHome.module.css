@@ -1,0 +1,145 @@
+.auth__home {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.9) 0,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0.9) 100%
+    ),
+    url(https://assets.nflxext.com/ffe/siteui/vlv3/eb482c64-e879-4e88-9ddc-d839cb7d1232/d03a05fb-39a4-4594-b16c-ddc39f35f5bd/IN-en-20220131-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  width: 100vw;
+  min-height: 100vh;
+  height: min-content;
+  background-position: center;
+  background-size: cover;
+  border-bottom: 1rem solid #333;
+}
+
+.auth_header {
+  padding-top: 2.8rem;
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 6rem;
+}
+.btn {
+  padding: 0.7rem 1.7rem;
+  background-color: #e50914;
+  border: none;
+  color: white;
+  font-family: inherit;
+  border-radius: 4px;
+  line-height: normal;
+  font-weight: 500;
+}
+.card {
+  max-width: 95rem;
+  margin: 0 auto;
+  padding: 14rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 5.6rem;
+  letter-spacing: 3px;
+}
+
+.sub-title {
+  font-weight: 500;
+  font-size: 2.6rem;
+  margin: 1rem auto;
+}
+
+.email-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.email-form-title {
+  padding-bottom: 2rem;
+  font-size: 1.8rem;
+}
+
+.email-lockup {
+  display: flex;
+  margin: 0 auto;
+}
+.email-input {
+  width: 45rem;
+  min-height: 6rem;
+  padding-left: 1rem;
+  font-size: 1.8rem;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+}
+
+.email-input:focus {
+  outline: none;
+}
+
+.btn-start {
+  min-height: 6rem;
+  background-color: #e50914;
+  font-size: 2.6rem;
+  border: none;
+  color: white;
+  padding: 0 2.5rem;
+  margin-left: 1px;
+  border-radius: 2px;
+}
+
+.btn,
+.btn-start {
+  cursor: pointer;
+  background-color: #f40612;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 900px) {
+  .title {
+    font-size: 4.2rem;
+  }
+  .email-lockup {
+    flex-direction: column;
+    gap: 1.8rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .email-form-title {
+    max-width: 80%;
+    line-height: 3.2rem;
+    font-size: 2.4rem;
+    margin: 1.8rem auto;
+  }
+  .email-input {
+    max-width: 100%;
+  }
+  .card {
+    padding: 14rem 6.4rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .card {
+    padding: 6.8rem 3.2rem;
+  }
+  .title {
+    font-size: 3.2rem;
+  }
+  .sub-title {
+    padding-top: 1.8rem;
+    font-size: 2.2rem;
+  }
+  .email-form-title {
+    font-size: 1.8rem;
+  }
+}

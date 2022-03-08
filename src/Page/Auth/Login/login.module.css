@@ -1,0 +1,103 @@
+.login {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.9) 0,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0.9) 100%
+    ),
+    url(https://assets.nflxext.com/ffe/siteui/vlv3/6dea7743-5586-45d1-89a2-9569b1bb0340/b8bbb6c3-80f1-4648-8527-521bd3bd8781/IN-en-20220207-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  width: 100vw;
+  height: min-content;
+  background-position: center;
+  background-size: cover;
+}
+
+.login-header {
+  cursor: pointer;
+  padding: 2% 3% 0;
+}
+
+.logo {
+  height: 9rem;
+}
+
+.login-body {
+  max-width: 45rem;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.login-wrap {
+  padding: 5% 3%;
+}
+.login-form {
+  padding: 6rem 6.8rem 4rem;
+}
+
+.login-heading {
+  font-size: 3.2rem;
+  color: white;
+  margin-bottom: 2.8rem;
+  letter-spacing: 1px;
+}
+
+.input-fields {
+  background-color: #333;
+  line-height: 5rem;
+  height: 5rem;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 0 1rem;
+  border-radius: 4px;
+  font-size: 1.6rem;
+}
+
+.input-fields:focus {
+  outline: none;
+}
+.input-wrapper {
+  margin-bottom: 2rem;
+}
+
+.error .error-message {
+  display: block;
+}
+.error-message {
+  display: none;
+  color: #e87c03;
+  font-size: 1.3rem;
+  padding: 0.6rem 0.3rem;
+}
+
+.btn-red {
+  width: 100%;
+  padding: 2rem;
+  border-radius: 4px;
+  font-size: 1.6rem;
+  border: none;
+  color: white;
+  background-color: #e50914;
+  cursor: pointer;
+  margin: 2.4rem 0 1.2rem;
+}
+
+.login-extra-info {
+  color: #737373;
+  padding: 2rem 0 4rem 0;
+}
+
+.sign-up-now {
+  font-size: 1.6rem;
+  margin-top: 1rem;
+}
+
+.sign-up-now a {
+  text-decoration: none;
+  color: white;
+  margin-left: 0.4rem;
+}
+
+.security {
+  font-size: 1.3rem;
+  padding: 3rem 0;
+}
